@@ -34,4 +34,7 @@ class Assets {
   static const gitgo = 'assets/works/gitgo.png';
   static const hm = 'assets/works/hm.jpg';
   static const navft = 'assets/works/navft.jpeg';
+  static const bmi = 'assets/works/bmi.jpg';
+  static const destini = 'assets/works/destini.png';
+  static const magic = 'assets/works/magic.jpg';
 }

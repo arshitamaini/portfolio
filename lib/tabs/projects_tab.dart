@@ -12,18 +12,18 @@ class ProjectsTab extends StatelessWidget {
     return ResponsiveWidget(
       largeScreen: GridView.count(
         padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 32.0),
-        crossAxisCount: 3,
+        crossAxisCount: 2,
         childAspectRatio: MediaQuery.of(context).size.width /
             (MediaQuery.of(context).size.height / 1.3),
         children: List.generate(
           projects.length,
-          (index) => ProjectWidget(projects[index], 0,random.nextInt(5000)),
+          (index) => ProjectWidget(projects[index], 0, random.nextInt(5000)),
         ),
       ),
       smallScreen: ListView.builder(
           itemCount: projects.length,
-          itemBuilder: (context, index) => ProjectWidget(
-              projects[index], (index == projects.length - 1 ? 16.0 : 0), random.nextInt(5000))),
+          itemBuilder: (context, index) => ProjectWidget(projects[index],
+              (index == projects.length - 1 ? 16.0 : 0), random.nextInt(5000))),
     );
   }
 }

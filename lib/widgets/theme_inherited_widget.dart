@@ -13,7 +13,7 @@ class ThemeSwitcher extends InheritedWidget {
 
   static _ThemeSwitcherWidgetState of(BuildContext context) {
     //This method returns the current state of the ThemeSwitcherWidget. This will be used down the tree
-    return (context.inheritFromWidgetOfExactType(ThemeSwitcher)
+    return (context.dependOnInheritedWidgetOfExactType<ThemeSwitcher>()
             as ThemeSwitcher)
         .data;
   }

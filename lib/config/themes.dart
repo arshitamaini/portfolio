@@ -16,6 +16,7 @@ darkTheme(context) {
         splashColor: Colors.black),
     appBarTheme: AppBarTheme(
       elevation: 0.0,
+      backgroundColor: Colors.black,
     ),
   );
 }
@@ -36,6 +37,7 @@ lightTheme(context) {
         splashColor: Colors.white),
     appBarTheme: AppBarTheme(
       elevation: 0.0,
+      backgroundColor: Colors.white,
     ),
   );
 }

@@ -25,14 +25,15 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'Yash Khare',
+                'Navinder Kour',
                 textScaleFactor: 4,
               ),
               SizedBox(
                 height: 20,
               ),
               Text(
-                'Member and mentor @amFOSS\nComputer Vision | Flutter | Android Developer',
+                'BTech CSE |2022 Graduate |Eternal University, Baru Sahib|\n'
+                'Community Builder & Volunteer at Techshilla | Aspiring Socialpreneur | A Peace builder',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
@@ -40,22 +41,22 @@ class AboutTab extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Center(
-                child: new InkWell(
-                    child: new Text(
-                      'Checkout my Curriculum Vitae',
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontSize: 16,
-                        //fontWeight: FontWeight.bold,
-                        fontFamily: 'OpenSans',
-                      ),
-                      textScaleFactor: 2,
-                      textAlign: TextAlign.center,
-                    ),
-                    onTap: () =>
-                        launch('https://yashk2000.github.io/docs/cv.pdf')),
-              ),
+              // Center(
+              //   child: new InkWell(
+              //       child: new Text(
+              //         'Checkout my Curriculum Vitae',
+              //         style: TextStyle(
+              //           color: Colors.blue,
+              //           fontSize: 16,
+              //           //fontWeight: FontWeight.bold,
+              //           fontFamily: 'OpenSans',
+              //         ),
+              //         textScaleFactor: 2,
+              //         textAlign: TextAlign.center,
+              //       ),
+              //       onTap: () =>
+              //           launch('https://yashk2000.github.io/docs/cv.pdf')),
+              // ),
               SizedBox(
                 height: 30,
               ),
@@ -70,40 +71,33 @@ class AboutTab extends StatelessWidget {
                         child: Image.asset(Assets.github)),
                     label: Text('Github'),
                     onPressed: () =>
-                        html.window.open(Constants.PROFILE_GITHUB, 'yashk2000'),
+                        html.window.open(Constants.PROFILE_GITHUB, 'Navinde'),
                   ),
-                  FlatButton.icon(
-                    icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.gitlab)),
-                    label: Text('GitLab'),
-                    onPressed: () =>
-                        html.window.open(Constants.PROFILE_GITLAB, 'yashk2000'),
-                  ),
-                  FlatButton.icon(
-                    icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.blog)),
-                    label: Text('Blog'),
-                    onPressed: () =>
-                        html.window.open(Constants.PROFILE_BLOG, 'yash2k'),
-                  )
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
+                  // FlatButton.icon(
+                  //   icon: SizedBox(
+                  //       width: 20,
+                  //       height: 20,
+                  //       child: Image.asset(Assets.gitlab)),
+                  //   label: Text('GitLab'),
+                  //   onPressed: () =>
+                  //       html.window.open(Constants.PROFILE_GITLAB, 'yashk2000'),
+                  // ),
+                  // FlatButton.icon(
+                  //   icon: SizedBox(
+                  //       width: 20, height: 20, child: Image.asset(Assets.blog)),
+                  //   label: Text('Blog'),
+                  //   onPressed: () =>
+                  //       html.window.open(Constants.PROFILE_BLOG, 'yash2k'),
+                  // )
+
                   FlatButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.instagram)),
                     label: Text('Instagram'),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_INSTAGRAM, 'not_khare'),
+                    onPressed: () => html.window.open(
+                        Constants.PROFILE_INSTAGRAM, 'kournavinder0/?hl=en'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
@@ -112,7 +106,7 @@ class AboutTab extends StatelessWidget {
                         child: Image.asset(Assets.twitter)),
                     label: Text('Twitter'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_TWITTER, '_p0lar_bear'),
+                        .open(Constants.PROFILE_TWITTER, 'KourNavinder'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
@@ -121,14 +115,20 @@ class AboutTab extends StatelessWidget {
                         child: Image.asset(Assets.linkedin)),
                     label: Text('Linkedin'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_LINKEDIN, 'yashk2000'),
+                        .open(Constants.PROFILE_LINKEDIN, 'navinderkour'),
                   )
                 ],
               ),
-              SizedBox(height: 120),
+              SizedBox(height: 60),
               Align(
                   alignment: Alignment.bottomCenter,
-                  child: Text("Made with Flutter"))
+                  child: TextButton(
+                      onPressed: () =>
+                          html.window.open(Constants.CREDIT, 'yashk2000'),
+                      child: Text(
+                        "Made with Flutter\n Template by Yash Khare",
+                        textAlign: TextAlign.center,
+                      )))
             ],
           ),
         ),

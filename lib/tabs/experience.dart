@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/models/experience_main_page.dart';
 
-class ExperienceTab extends StatefulWidget {
+class CVTab extends StatefulWidget {
   @override
   _ExperienceTabState createState() => _ExperienceTabState();
 }
 
-class _ExperienceTabState extends State<ExperienceTab> {
+class _ExperienceTabState extends State<CVTab> {
   @override
   void initState() {
     super.initState();
