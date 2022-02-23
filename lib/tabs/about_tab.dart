@@ -39,24 +39,24 @@ class AboutTab extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               SizedBox(
-                height: 10,
+                height: 30,
               ),
-              // Center(
-              //   child: new InkWell(
-              //       child: new Text(
-              //         'Checkout my Curriculum Vitae',
-              //         style: TextStyle(
-              //           color: Colors.blue,
-              //           fontSize: 16,
-              //           //fontWeight: FontWeight.bold,
-              //           fontFamily: 'OpenSans',
-              //         ),
-              //         textScaleFactor: 2,
-              //         textAlign: TextAlign.center,
-              //       ),
-              //       onTap: () =>
-              //           launch('https://yashk2000.github.io/docs/cv.pdf')),
-              // ),
+              Center(
+                child: new InkWell(
+                    child: new Text(
+                      'Checkout my Curriculum Vitae',
+                      style: TextStyle(
+                        color: Colors.blueAccent,
+                        fontSize: 12,
+                        //fontWeight: FontWeight.bold,
+                        fontFamily: 'OpenSans',
+                      ),
+                      textScaleFactor: 2,
+                      textAlign: TextAlign.center,
+                    ),
+                    onTap: () =>
+                        launch('https://navinde.github.io/docs/cv.pdf')),
+              ),
               SizedBox(
                 height: 30,
               ),
@@ -119,16 +119,16 @@ class AboutTab extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(height: 60),
-              Align(
-                  alignment: Alignment.bottomCenter,
-                  child: TextButton(
-                      onPressed: () =>
-                          html.window.open(Constants.CREDIT, 'yashk2000'),
-                      child: Text(
-                        "Made with Flutter\n Template by Yash Khare",
-                        textAlign: TextAlign.center,
-                      )))
+              // SizedBox(height: 60),
+              // Align(
+              //     alignment: Alignment.bottomCenter,
+              //     child: TextButton(
+              //         onPressed: () =>
+              //             html.window.open(Constants.CREDIT, 'yashk2000'),
+              //         child: Text(
+              //           "Made with Flutter\n Template by Yash Khare",
+              //           textAlign: TextAlign.center,
+              // )))
             ],
           ),
         ),

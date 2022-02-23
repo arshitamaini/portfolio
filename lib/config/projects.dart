@@ -5,7 +5,7 @@ import 'assets.dart';
 final List<Project> projects = [
   Project(
       name: 'Quizzler',
-      image: Assets.cctv,
+      image: Assets.quizzler,
       description:
           'This application display questions and user can answer the question either True or False. For every answer they will get the score and it will display on the screen',
       link: 'https://github.com/Navinde/quizzler-flutter-challenge-starting',
