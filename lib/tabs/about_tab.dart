@@ -32,7 +32,7 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'Computer Science Engineer | Volenteer | Mobile App Developer | Problem Solver',
+                'Computer Science Engineer | Volunteer | Mobile App Developer | Problem Solver',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,

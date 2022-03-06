@@ -9,7 +9,7 @@ final List<Experience> experiences = [
       color: Colors.orange,
       active: true,
       description:
-          'Born and bought up in Shahabad, Haryana. Being always passionate and curious about technology, I moved to himachal for my graduation where I met some amazing young beautiful inspiring high school girls. Hence, my journey begin as python mentor.\n\n'),
+          'Born and brought up in Shahabad, Haryana. Being always passionate and curious about technology, I moved to himachal for my graduation where I met some amazing young beautiful inspiring high school girls. Hence, my journey begin as python mentor.\n\n'),
   new Experience(
       jobTitle: 'Education',
       company: '',
@@ -26,8 +26,7 @@ final List<Experience> experiences = [
       date: '',
       color: Colors.lightGreenAccent,
       active: true,
-      description: 
-          'Volunteer mentor in Techshilla, Baru Sahib.\n\n'
+      description: 'Volunteer mentor in Techshilla, Baru Sahib.\n\n'
           'Mentee at Mentorship Program 4.0 by Women Who Code, Delhi.\n'),
   new Experience(
       jobTitle: 'Skill',
