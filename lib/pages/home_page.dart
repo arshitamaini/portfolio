@@ -47,15 +47,15 @@ class _HomePageState extends State<HomePage> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle),
-            title: Text('About'),
+            label: 'About',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.chrome_reader_mode),
-            title: Text('Curriculum Vitae'),
+            label: 'Curriculum Vitae',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.folder_open),
-            title: Text('Projects '),
+            label: 'Projects ',
           )
         ],
         currentIndex: _selectedIndex,

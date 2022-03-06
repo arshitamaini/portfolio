@@ -137,6 +137,6 @@ class ProjectWidget extends StatelessWidget {
   }
 
   void onProjectClick() {
-    if (_project.link != null) html.window.open(_project.link, 'Navinder Kour');
+    if (_project.link != null) html.window.open(_project.link, 'Arshita Maini');
   }
 }

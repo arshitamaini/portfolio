@@ -25,7 +25,7 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Navinder Kour',
+      title: 'Arshita Maini',
       theme: ThemeSwitcher.of(context).isDarkModeOn
           ? darkTheme(context)
           : lightTheme(context),
